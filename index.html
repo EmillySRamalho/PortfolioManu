@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./icone/apple.png">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Manu Silva</title>
 </head>
 
@@ -13,17 +21,8 @@
     <header class="header">
         <a href="#">
             <img class="logo" src="img/Logo Vertical.png" alt="logo">
-            <nav class = "menu">
-                <a href = "https://www.instagram.com/nutri_manu21/" class = link target="_blank">
-                    <img src="./icone/instagram_2626270.png" alt="instagram">
-                </a>
-                <a href = "./doc/Currículo-1.pdf" class = link target="_blank">
-                    <img src="./icone/curriculum-vitae_9304833.png" alt="instagram">
-                    
-                </a>
-                
-            </nav>
         </a>
+
     </header>
 
     <main>
@@ -38,18 +37,131 @@
 
                     Aqui, você encontra apoio, escuta e orientação para alcançar seus objetivos com saúde e equilíbrio.
 
-                    ✨ Vamos dar esse passo juntos? Marque sua consulta e comece hoje mesmo essa mudança.
+                    Vamos dar esse passo juntos? Marque sua consulta e comece hoje mesmo essa mudança.
                 </p>
                 <div class="botoes">
                     <button class="botao botao-primario">
-                        <a href="https://www.instagram.com/nutriadriellycavalcante?igsh=YzhzdW52ZGJ2amEx"
-                            target="_blank">
+                        <a href="https://api.whatsapp.com/qr/KZXL6FNCTVDRI1?autoload=1&app_absent=0" target="_blank">
                             Marque sua consulta
                         </a>
+                    </button>
                 </div>
             </div>
         </section>
     </main>
+    <section class="sobre-mim">
+        <div class="conteudo">
+            <div class="texto">
+                <h2 class="titulo2">Sobre Emanuela Matias da Silva – Nutricionista</h2>
+                <p>
+                    Sou Nutricionista formada pelo Centro Universitário Santa Maria – UNIFSM (2021–2024), com
+                    experiência prática em nutrição clínica, saúde pública e segurança alimentar. Atuei em instituições
+                    como a Policlínica Mirian Gadelha, o Programa Nacional de Alimentação Escolar (PNAE) em Bom Jesus, e
+                    o Restaurante Popular de Sousa, onde participei diretamente da elaboração de cardápios, orientações
+                    nutricionais e estratégias para promoção da saúde coletiva.
+                    Além da formação acadêmica, busquei aprimoramento contínuo por meio de cursos complementares, com
+                    ênfase em:
+                </p>
+                <div class="temas-container">
+                    <span class="tema">Nutrição e esporte</span>
+                    <span class="tema">Prevenção da obesidade infantil</span>
+                    <span class="tema">Higiene e qualidade dos alimentos</span>
+                    <span class="tema">Educação e sistemas alimentares</span>
+                    <span class="tema">Obesidade na Atenção Primária</span>
+                </div>
+            </div>
+            <div class="foto ilustracao2"></div>
+        </div>
+        </div>
+    </section>
+    <section class="publicacoes">
+        <div class="galeria-wrapper">
+            <h2 class="titulo3">Galeria de Publicações</h2>
+            <p class="descricao-galeria">Aqui você encontra dicas exclusivas, receitas saudáveis, sugestões de produtos
+                e muito mais — tudo pensado para te inspirar no seu processo de cuidado com a saúde. <br>
+                Quer ter acesso personalizado a esses produtos e orientações específicas para o seu caso?
+                Agende sua consulta e receba um plano feito especialmente para você.</p>
+            <button class="botao-navegacao esquerda" onclick="voltar()">‹</button>
+
+            <div class="galeria-container" id="galeria">
+                <div class="imagem-com-legenda">
+                    <img src="./img/Mercado.jpg" alt="Mercado">
+                    <p class="legenda">Mercado</p>
+                </div>
+                <div class="imagem-com-legenda">
+                    <img src="./img/Doces.jpg" alt="Doces">
+                    <p class="legenda">Doces</p>
+                </div>
+                <div class="imagem-com-legenda">
+                    <img src="./img/Rótulos.jpg" alt="Rótulos">
+                    <p class="legenda">Rótulos</p>
+                </div>
+                <div class="imagem-com-legenda">
+                    <img src="./img/Whey.jpg" alt="Whey">
+                    <p class="legenda">Whey</p>
+                </div>
+                <div class="imagem-com-legenda">
+                    <img src="./img/Receitas.jpg" alt="Receitas">
+                    <p class="legenda">Receitas</p>
+                </div>
+                <div class="imagem-com-legenda">
+                    <img src="./img/Prato colorido.jpg" alt="Prato Colorido">
+                    <p class="legenda">Prato Colorido</p>
+                </div>
+                <div class="imagem-com-legenda">
+                    <img src="./img/Escala bistrol.jpeg" alt="Escala Bistrol">
+                    <p class="legenda">Escala Bistrol</p>
+                </div>
+                <div class="imagem-com-legenda">
+                    <img src="./img/Medidas caseiras.jpg" alt="Medidas Caseiras">
+                    <p class="legenda">Medidas Caseiras</p>
+                </div>
+            </div>
+
+            <button class="botao-navegacao direita" onclick="avancar()">›</button>
+
+            <a class="botao-consulta" href="https://api.whatsapp.com/qr/KZXL6FNCTVDRI1?autoload=1&app_absent=0"
+                target="_blank">
+                Marque sua consulta
+            </a>
+        </div>
+        <script>
+            const galeria = document.getElementById('galeria');
+            const scrollAmount = 600;
+
+            function avancar() {
+                galeria.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+
+            function voltar() {
+                galeria.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            }
+        </script>
+    </section>
 </body>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <p>&copy; 2025 <strong>NUTRI EMANUELA MATIAS DA SILVA</strong> <br>
+                Todos os direitos reservados. <br>
+                (83) 9 9303 9471 | CRN: <strong>47010/P</strong>
+            </p>
+        </div>
+
+        <div class="footer-right">
+            <p><strong>Com carinho, desenvolvido por:</strong></p>
+            <div class="linkedin-icons">
+                <a href="https://www.linkedin.com/in/emilly-santos-ramalho" target="_blank"
+                    aria-label="LinkedIn Emilly">
+                    <img src="./icone/linkedin.png" alt="LinkedIn de Emilly Santos Ramalho">
+                </a>
+                <a href="https://www.linkedin.com/in/ellen-santos-ramalho/" target="_blank" aria-label="LinkedIn Ellen">
+                    <img src="./icone/linkedin.png" alt="LinkedIn de Ellen Santos Ramalho">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>
